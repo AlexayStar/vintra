@@ -195,6 +195,7 @@ body {
     max-width: 893px;
     margin-left: auto;
     margin-top: auto;
+    border-bottom: 1px solid #999;
 }
 
 .hero_item {
@@ -950,6 +951,10 @@ body {
     .hero_item {
         margin-right: 0;
         margin-bottom: 25px;
+    }
+
+    .hero_item:last-child {
+        margin-bottom: 0px;
     }
 
     .about {
